@@ -1,0 +1,91 @@
+  @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;700&family=Monoton&display=swap');
+
+
+  body {
+    font-family: 'Fira Sans', sans-serif;
+  }
+
+  :root {
+    --colorPrincipal: #1d692e;
+    --colorPrincipalClaro: #FFC107;
+    --colorPrincipalOscuro: #208737;
+    --colorClaro: #f6f6f6;
+  }
+
+  .navBarColor {
+    background-color: var(--colorPrincipal);
+  }
+
+  .hoverNabVar {
+    color: var(--colorClaro);
+  }
+
+  .hoverNabVar a:hover {
+    color: var(--colorPrincipalClaro);
+  }
+
+  h2 {
+    font-family: 'Monoton', cursive;
+  }
+
+  h3 {
+    font-family: 'Fira Sans', sans-serif;
+  }
+
+  .btnCard a {
+    border-color: var(--colorPrincipal);
+    color: var(--colorPrincipalOscuro)
+  }
+
+  .btnCard a:hover {
+    background-color: var(--colorPrincipal);
+    color: var(--colorClaro);
+  }
+
+  .seccionBotonera {
+    background-color: var(--colorPrincipalClaro);
+  }
+
+  .seccionBotoneraTitulo {
+    color: var(--colorPrincipalOscuro);
+  }
+
+  .estilosBoton a {
+    color: var(--colorClaro);
+    text-decoration: none;
+    text-align: center;
+    padding: 2px;
+    margin: 1.5px;
+    background-color: var(--colorPrincipalOscuro);
+    border-radius: 10px;
+  }
+
+  .estilosBoton a:hover {
+    background-color: var(--colorClaro);
+    color: var(--colorPrincipalOscuro);
+  }
+
+  .seccionDescuentosCards {
+    color: var(--colorClaro);
+  }
+
+  .seccionFooter h4 {
+    color: var(--colorPrincipalClaro);
+  }
+
+  .seccionFooter {
+    color: var(--colorClaro);
+  }
+
+  .seccionFooter a:hover {
+    color: var(--colorPrincipalClaro);
+  }
+
+  .hoverFooter a {
+    color: var(--colorClaro);
+    text-decoration: none;
+  }
+
+  .hoverFooter a:hover {
+    color: var(--colorPrincipalClaro)
+  }
